@@ -282,3 +282,47 @@
     padding-top: 200px;
     width: 700px;
 }
+.hot{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 50px;
+    font-family: f3;
+}
+
+.container-grip{
+    height: 60vh;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-grip .col{
+    width: 400px;
+    height: 400px;
+   
+}
+.container-grip .col img{
+    width: 100%;
+}
+.container-grip .col a{
+    text-align: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: f2;
+    color: black;
+}
+.container-grip .col a:hover{
+
+    color: red;
+    transition: all 0.3s;
+}
+.container-grip .col p{
+    margin: 10px;
+    font-size: 16px;
+    font-family: f4;
+}
+.acc{
+    font-size: 50px;
+    font-family: f3;
+    text-align: center;
+}
