@@ -1,0 +1,284 @@
+@font-face{
+    font-family: f1;
+    src: url(/fonts/TorweltenMono.ttf);
+
+}
+@font-face {
+    font-family: f2;
+    src: url(/fonts/Long_Shot.ttf);
+}
+@font-face {
+    font-family: f3;
+    src: url(/fonts/Caverson.otf);
+}
+@font-face {
+    font-family: f4;
+    src: url(/fonts/MEPHISTO.TTF);
+}
+@font-face {
+    font-family: f5;
+    src: url(/fonts/Monster\ of\ South\ hollow\ St.ttf);
+}
+@font-face {
+    font-family: f6;
+    src: url(/fonts/Monster\ of\ South\ Italic\ St.ttf);
+}
+@font-face {
+    font-family: f7;
+    src: url(/fonts/Monster\ of\ South\ St.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-header{
+    height: 80px;
+    background-color :rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.nav-header img{
+    margin: 20px;
+    width: 300px;
+}
+.navbar-list ul{
+    list-style-type: none;
+}
+.navbar-list ul li{
+    display: inline;
+    margin: 0px 40px;
+}
+.navbar-list ul li a{
+    text-decoration: none;
+    font-family: f3;
+    font-size: 20px;
+}
+
+/* //menu hideen */
+.navbar-list ul li a i{
+    display: none;
+}
+
+
+.navbar-list ul li a:hover{
+    padding: 20px;
+    background-color: rgb(236, 236, 236);
+    transition: all 0.3s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.slider-container{
+    position: relative;
+    height: 80vh;
+    width: 100%px;
+    border: 3px solid black;
+}
+.slider-container .slider{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.slider-container .slider img{
+    width: 100%;
+    position:absolute;
+    object-fit: cover;
+}
+
+.slider-container .slider img:not(.active){
+    top: 0;
+    left: -100%;
+}
+
+
+
+
+
+
+.banner-box{
+    align-items: center;
+    justify-items: center   ;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-img1{
+    height: 50vh;
+    width: 45%;
+    background-image: url(/image/banner03.jpg);
+    background-size: 100% 100%, cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+   
+}
+.banner-img2{
+    height: 50vh;
+    width: 45%;
+    background-image: url(/image/banner05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.banner-img1:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.banner-img2:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.category-text h1{
+
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: f1;
+    text-align: center;
+}
+
+.category{
+    margin: 30px;
+    height: 30vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.asus img{
+    width: 200px;
+    cursor: pointer;
+}
+.msi img{
+    width: 200px;
+    cursor: pointer;
+}
+.rog img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.dell-1 img{
+    width: 200px;
+    cursor: pointer;
+}
+
+
+
+.product{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 120vh;
+    background-color: red;
+    background-image: url(/image/back01.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.info{
+    width: 600px;
+    color: white;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.info h1{
+    font-size: 40px;
+    font-family: f3;
+}
+.window h1{
+    margin-top: 20px;
+}
+.info p{
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cpu-gpu{
+    margin-top: 20px;
+    display: flex;
+
+}
+.gpu{
+    margin-left: 20px;
+}
+
+.ram-ssd{
+    margin-top: 20px;
+    display: flex;
+}
+.ssd{
+    margin-top: 20px;
+    margin-left: 105px;
+}
+
+.product-laptop img{
+    padding-top: 200px;
+    width: 700px;
+}
+
+
+
+.product2{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 120vh;
+    background-color: red;
+    background-image: url(/image/back02.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.product-laptop2 img{
+    padding-top: 200px;
+    width: 700px;
+}
+
+
+.product3{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 120vh;
+    background-color: red;
+    background-image: url(/image/back03.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.product-laptop3 img{
+    padding-top: 200px;
+    width: 700px;
+}
+
+.product4{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    height: 120vh;
+    background-color: red;
+    background-image: url(/image/back05.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.product-laptop4 img{
+    padding-top: 200px;
+    width: 700px;
+}
