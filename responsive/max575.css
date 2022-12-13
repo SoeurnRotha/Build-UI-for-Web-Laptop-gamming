@@ -1,0 +1,79 @@
+@font-face{
+    font-family: f1;
+    src: url(/fonts/TorweltenMono.ttf);
+
+}
+@font-face {
+    font-family: f2;
+    src: url(/fonts/Long_Shot.ttf);
+}
+@font-face {
+    font-family: f3;
+    src: url(/fonts/Caverson.otf);
+}
+@font-face {
+    font-family: f4;
+    src: url(/fonts/MEPHISTO.TTF);
+}
+@font-face {
+    font-family: f5;
+    src: url(/fonts/Monster\ of\ South\ hollow\ St.ttf);
+}
+@font-face {
+    font-family: f6;
+    src: url(/fonts/Monster\ of\ South\ Italic\ St.ttf);
+}
+@font-face {
+    font-family: f7;
+    src: url(/fonts/Monster\ of\ South\ St.ttf);
+}
+@media (max-width: 575.98px) {
+    .nav-header{
+        height:10vh;
+       
+    }
+    .nav-header img{
+        display: none;
+    }
+    #a{
+        display: none;
+    }
+    .navbar-list ul {
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+    .navbar-list ul li button{
+        
+        height: 40px;    
+        display: inline;
+        float: left;
+    }
+    .offcanvas-body{
+        display: block;
+    }
+    .category-text h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .category{
+        display: grid;
+        height: 100vh;
+    }
+
+    .product{
+        height: 10vh;
+    }
+
+
+
+    .footer .footer-row .footer-list ul li a:hover{
+        background-color: black;
+        padding: 0;
+    }
+    
+
+    
+}

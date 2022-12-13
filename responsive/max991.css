@@ -1,0 +1,85 @@
+@media (max-width:991.98px) {
+
+    .nav-header img{
+        width: 120px;
+
+    }
+    /* .banner-box{
+        height: 40vh;
+        background-color: aqua;
+    } */
+    .banner-img1{
+        height: 30vh;
+    }
+    .banner-img2{
+        height: 30vh;
+    }
+
+
+    
+    .category img{
+        width: 100px;
+    }
+
+
+
+    .product{
+        background-position:center;
+        background-size: cover;
+    }
+    .product2{
+        background-position:center;
+        background-size: cover;
+    }
+    .product4{
+        background-position:center;
+        background-size: cover;
+    }
+    .info h1{
+        font-size: 20px;
+    }
+    .info h3{
+        font-size: 25px;
+    }
+    .info p{
+        font-size: 10px;
+    }
+
+    .cpu-gpu h3{
+        font-size: 15px;
+    }
+    .product-laptop img{
+        width: 100%;
+    }
+
+    .product-laptop2 img{
+        width: 100%;
+    }
+    .product-laptop3 img{
+        width: 100%;
+    }
+    .product-laptop4 img{
+        width: 100%;
+    }
+
+
+    .container-grip .col a{
+        font-size: 18px;
+    }
+    .container-grip .col p{
+        font-size: 15px;
+    }
+
+    .footer{
+        height: 50vh;
+    }
+    .footer .footer-img img{
+       position: absolute;
+       height: 40%;
+    }
+
+    
+
+
+
+}
